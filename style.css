@@ -82,7 +82,7 @@ i:hover{
     background-color: green;
     text-align: center;
 }
-.menu-bar ul{
+ .menu-bar ul{
     display: inline-flex;
     list-style: none;
     /* overflow-y: scroll; */
@@ -116,6 +116,7 @@ ul li a{
     display:none;
     /* transition: all 2s; */
 }
+
 .menu-bar ul li:hover .sub-menu-1 {
     display: block;
     background: green;
@@ -126,7 +127,7 @@ ul li a{
 .menu-bar ul li:hover .sub-menu-1 ul{
     display: block;
     padding-left: 0;
-    /* margin: 8px; */
+    
 }
 .menu-bar ul li:hover .sub-menu-1 ul li{
     width: 230px; 
@@ -143,12 +144,12 @@ ul li a{
     background: green;
     position: absolute;
     margin-top:15px;
-    /* margin-left: -15px; */
+    
 }
 .menu-bar ul li:hover .sub-menu-2 ul{
     display: block;
     padding-left: 0;
-    /* margin: 8px; */
+   
 }
 .menu-bar ul li:hover .sub-menu-2 ul li{
     width: 230px; 
@@ -166,17 +167,16 @@ ul li a{
     background: green;
     position: absolute;
     margin-top:15px;
-    /* margin-left: -15px; */
+   
 }
 .menu-bar ul li:hover .sub-menu-3 ul{
     display: block;
     padding-left: 0;
-    /* margin: 8px; */
+    
 }
 .menu-bar ul li:hover .sub-menu-3 ul li{
     width: 230px; 
-    /* padding:10px ; */
-    /* overflow: hidden; */
+    
     border-bottom: 0.1px solid gray;
     text-align: left;
 }
@@ -188,21 +188,21 @@ ul li a{
     background: green;
     position: absolute;
     margin-top:15px;
-    /* margin-left: -15px; */
+    
 }
 .menu-bar ul li:hover .sub-menu-4 ul{
     display: block;
     padding-left: 0;
     overflow-wrap:normal;
 
-    /* margin: 8px; */
+   
 }
 .menu-bar ul li:hover .sub-menu-4 ul li{
-    /* position: static; */
+    
     width: 230px; 
     padding:8px ;
     border-bottom: 0.1px solid gray;
-    /* overflow:scroll; */
+   
     text-align: left;
 }
 .sub-menu-5{
@@ -213,16 +213,16 @@ ul li a{
     background: green;
     position: absolute;
     margin-top:15px;
-    /* margin-left: -15px; */
+    
 }
 .menu-bar ul li:hover .sub-menu-5 ul{
     display: block;
     padding-left: 0;
-    /* margin: 8px; */
+    
 }
 .menu-bar ul li:hover .sub-menu-5 ul li{
     width: 230px; 
-    /* padding:10px ; */
+   
     border-bottom: 0.1px solid gray;
     overflow: hidden;
     text-align: left;
@@ -235,16 +235,16 @@ ul li a{
     background: green;
     position: absolute;
     margin-top:15px;
-    /* margin-left: -15px; */
+   
 }
 .menu-bar ul li:hover .sub-menu-6 ul{
     display: block;
     padding-left: 0;
-    /* margin: 8px; */
+  
 }
 .menu-bar ul li:hover .sub-menu-6 ul li{
     width: 230px; 
-    /* padding:10px ; */
+    
     overflow: hidden;
     border-bottom: 0.1px solid gray;
     text-align: left;
@@ -257,16 +257,16 @@ ul li a{
     background: green;
     position: absolute;
     margin-top:15px;
-    /* margin-left: -15px; */
+   
 }
 .menu-bar ul li:hover .sub-menu-7 ul{
     display: block;
     padding-left: 0;
-    /* margin: 8px; */
+   
 }
 .menu-bar ul li:hover .sub-menu-7 ul li{
     width: 230px; 
-    /* padding:10px ; */
+
     border-bottom: 0.1px solid gray;
     overflow: hidden;
     text-align: left;
@@ -279,28 +279,27 @@ ul li a{
     background: green;
     position: absolute;
     margin-top:15px;
-    /* margin-left: -15px; */
+   
 }
 .menu-bar ul li:hover .sub-menu-8 ul{
     display: block;
     padding-left: 0;
-    /* margin: 8px; */
-}
+ }
 .menu-bar ul li:hover .sub-menu-8 ul li{
     width: 230px; 
-    /* padding:10px ; */
+    
     border-bottom: 0.1px solid gray;
     overflow: hidden;
     text-align: left;
 }
 
-/* banner */
+
 
 .banner{
     width: 100%;
-    height: 56vh;
+    height: 50%;
 }
- marquee{
+marquee{
     transform: translateY(0%);
     color: aliceblue;
     display: block;
@@ -317,19 +316,18 @@ marquee i{
     padding-left: 10px;
 }
 
-/* online section */
+
 
 .online{
-    position: absolute;
+    position: relative;
     left:50%;
-    /* top:30%; */
     transform: translate(-50%,0);
     background: rgb(12, 0, 48);
     width: 70rem;
     height: 6rem;
     margin: 10px;
-    /* margin-left: 50%; */
-}
+    
+ } 
 .online::before{
     
     content: " ";
@@ -357,7 +355,7 @@ marquee i{
 .online p a{
     text-decoration: none;
     color: white;
-    font-size:26;
+    font-size :26px;;
     font-weight: 800;
     animation: blink-color ease-in-out .5s infinite;
 }
@@ -372,19 +370,17 @@ marquee i{
 }
 .section-requerment{
     display: flex;
-    position: absolute;
+    position: relative;
     left: 5.1em;
     top: 135%;
-    /* border:2px solid #000; */
+   
 }
 .section-requerment .same {
     flex-basis: 1;
     width: 17.5rem;
 }
-/* .re{
-    width: 16rem;
-    border: 1px solid rgb(7, 90, 17);
-} */
+
+
 .re a{
     display: block;
     padding: 21px;
@@ -459,6 +455,7 @@ marquee i{
      position: absolute;
      top:40%;
      left: 70%;
+     float: right;
      color: #000;
      font-weight: 600;
 }
@@ -467,7 +464,7 @@ marquee i{
      top:0;
      left:0;
      text-decoration: none;
-     /* width: 6rem; */
+     
      background: #000;
      padding:14px;
      color:white;
@@ -481,50 +478,54 @@ marquee i{
     background: #008336;
 }
 
- /* Gallery of college */
 
-.gallery{
+
+.gallery{    
     display: flex;
-    position:absolute; 
-    /* border: 2px solid black; */
-    top: 210%;
     width: 88.8%;
-    left: 5rem;
+    justify-content: center;
+    transform: translate(3%,5%);
+    border: 1px solid black;
 }
+
 .gallery h2{
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
+
 }
-.gallery .gallery-1 {
+/* .gallery .gallery-1 {
     margin-left: 0rem;
+} */
+.gallery .gallery-1 {
+    margin-right: 3rem;
 }
-.gallery .gallery-1 img{
-    z-index: 2;
+.gallery .gallery-1 img{ 
     width:16rem;
-    /* height: 0px; */
+   
 }
 .gallery .gallery-2{
-    margin-left: 30px;
-    /* border: 2px solid brown; */
-    width: 36rem;
+    display:flex;
+
 }
+.vice-chancellor h2{
+    width: 18rem;
+    border: 1px solid black;
+}
+
 .gallery .para{
-    position:absolute;
-    top: 3rem;
-    left: 31rem;
-    width: 22rem;
-    /* letter-spacing:1px; */
-    /* line-height: 18px; */
+    display: flex;
+    /* transform: translateX(-0%,-20%); */
+    width: 18rem;
 }
 
 
 
-/* Imporatnt main */
 
 .important-main{
     
-    position:absolute;
-    top:263%;
-    width: 100%;
+    /* position:absolute;
+    top:263%; */
+    /* width: 100%; */
+    margin-top: 2rem;
     background: #131313;
     padding:.5rem;
 }
@@ -576,10 +577,10 @@ marquee i{
     align-items: center;
     justify-content: center;
     justify-content: space-between;
-    position: absolute;
-    top:358%;
-    width:100%;
-    /* border:2px solid black; */
+    /* position: absolute;
+    top:358%;*/
+    width:100%; 
+ 
     padding:1rem;
     background: #35363A;
 }
@@ -608,4 +609,4 @@ footer span{
 }
 .footer .right a:hover{
     color: #008336;
-}
+} 
